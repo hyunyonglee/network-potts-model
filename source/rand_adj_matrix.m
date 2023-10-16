@@ -1,8 +1,8 @@
-function [M] = rand_adj_matrix( N, p )
+function M = rand_adj_matrix( N, p )
 % Copyright 2020, Hyun-Yong Lee (hyunyong@korea.ac.kr)
 % Function: Generating Random Adjacency Matrix
 % (Input) N: Size of matrix
-% (Input) pc: Link probability
+% (Input) p: Link probability
 % (Output) M: Randon adjacency matrix (symmetric)
     
     M = zeros(N);

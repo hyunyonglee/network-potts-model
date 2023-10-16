@@ -6,7 +6,7 @@ clear; clc;
 %------------------------------------%
 
 % random adjacency matrix M
-% N: dimensoin
+% N: Number of sites
 % p: link probability (0 < p < 1)
 % note: p should be small enough, 
 %       otherwise the connectivity will be too large 

@@ -1,4 +1,4 @@
-function [F, cost] = free_energy1( temp, H, M )
+function [F, cost] = free_energy( temp, H, M )
 % Copyright 2020, Hyun-Yong Lee (hyunyong@korea.ac.kr)
 % Function: Calculating free energy
 % (Input) temp: temperature
